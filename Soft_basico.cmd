@@ -1,11 +1,11 @@
-TITLE -- SUPER-SCRIPT --
+TITLE -- Instalacion software basico --
 COLOR 1F
 
 :: -- Cuenta de usuario --
-::net user blabla password /ADD
-net user user root
+:: net user blabla password /ADD
+:: net user user root
 
-:: -- Plan de energía --
+:: -- Plan de energia full perfomance --
 powercfg.exe /setactive 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c
 
 :: -- Chocolatey con todos los programas necesarios --
@@ -16,5 +16,4 @@ choco install libreoffice-fresh -y
 choco install googlechrome -y
 choco install firefox -y
 choco install adobereader -y
-choco install malwarebytes -y
-choco install pdfcreator -y
+choco install pdf24 -y
